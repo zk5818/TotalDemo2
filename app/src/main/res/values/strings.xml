@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Total2Demo</string>
+    <string name="touch_to_focus">触摸屏幕对焦</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

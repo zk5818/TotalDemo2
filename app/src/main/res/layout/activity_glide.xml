@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.kery.total2demo.activity.GlideActivity">
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="BUTTON" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <!--<com.kery.total2demo.wight.ExpandTextView-->
+        <!--android:text="d;lak ;ask; k;ladk ;kad; ka;da  as adlk jasl jdaslkj lajl jlasjlsaj lajsl jlasdj jasl j"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <com.kery.total2demo.wight.ExpandTextView
+        android:layout_margin="20dp"
+        android:text=""
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:textColor="#000"
+        app:showMaxLine="4"
+        app:showTipAfterExpand="true"
+        app:tipClickable="true"
+        app:tipColor="@color/colorPrimary"
+        app:tipGravity="0" />
+</LinearLayout>
